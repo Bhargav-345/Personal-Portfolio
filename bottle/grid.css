@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navigation */
+/* #nav{
+} */
+ul{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(43, 39, 46);
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: azure;
+    &:hover{
+        background-color: rgba(151, 209, 166, 0.493);
+        color: black;
+        border-radius: 8px;
+    }
+}
+/* time */
+time{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} 
+
+span {
+    background: burlywood;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+/* trend section */
+#main{
+    background: url(/bottle/back1.jpeg) no-repeat center center/cover;
+}
+
+.container{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.con{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contain img{
+    height: 150px;
+    width: 150px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+
+.detail{
+    background-color: rgb(221, 234, 247);
+    width: 150px;
+    text-align: center;
+    border: 2px solid yellow;
+    border-radius: 9px;
+    &:hover{
+        background-color: aqua;
+    }
+}
+
+.botlink{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+/* table section */
+#product{
+    background-color: burlywood;
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+td,th{    
+    padding: 10px;
+}
+
+.tables{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+/* clients */
+.logo img{
+    height: 100px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ok{
+    margin: 20px;
+}
+
+/* utility class */
+.head{
+    text-align: center;
+    background-color: brown;
+    padding-top: 10px;
+}
+
+.quiries{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* feedback */
+#feed{
+    background-color: blueviolet;
+    height: 150px;
+    padding-left: 40%;
+    padding-top: 20px;
+}
+.feedback{
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+.sub{
+    display: block;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#feed button{
+    cursor: pointer;
+}

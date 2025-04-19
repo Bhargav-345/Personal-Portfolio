@@ -1,0 +1,75 @@
+/* home section*/
+#home{
+   height: 370px;
+   padding: 3px 68px;
+   &::before{
+   height: 480px;
+   }
+}
+
+#home p{
+    font-size: 13px;
+}
+
+/* utility classes*/
+.head1{
+    font-size: 30px;
+}
+
+
+/* services */
+#services{
+   flex-direction: column;
+}
+
+
+
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+
+.item{
+    background-color: black;
+    border-radius: 8px;
+}
+
+a{
+    font-size: 1rem;
+    padding: 0px 5px;
+}
+/* client */
+.clientitem{
+    padding: 10px;
+}
+
+#client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.our{
+padding-bottom: 50px;
+}
+
+.clientitem img{
+    width: 75px;
+    height: auto;
+}
+   
+   /* contact us */
+#contbox{
+    padding: 12px;
+}
+
+#contbox form{
+    width: 260px;
+}
+
+/* footer */
+footer{
+    padding: 9px 56px;
+}
