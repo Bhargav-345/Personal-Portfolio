@@ -198,57 +198,6 @@ header{
     }
 }
 
-/* feedback section */
-#feed{
-    background-color: #f5f5f5;
-    color: #222;
-    padding: 60px 40px;
-    text-align: center;
-}
-.feedback h2{
-    font-size: 2.2rem;
-    margin-bottom: 20px;
-    color: #333;
-    @media(max-width:750px) {
-        font-size: 1.7rem;
-    }
-    @media (max-width:480px) {
-        font-size: 1.4rem;
-    }
-}
-.adv{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    max-width: 500px;
-    gap: 15px;
-    padding: 0 10px;
-}
-.adv input,textarea{
-    padding: 12px 20px;
-    width: 100%;
-    color: #161718;
-    font-size: 1rem;
-    text-align: center;
-    @media (max-width:480px) {
-        font-size: 0.9rem;
-    }
-}
-textarea{
-    min-height: 120px;
-}
-.adv button{
-    padding: 10px;
-    background-color: #007BFF;
-    color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    &:hover{
-        background-color: #0056b3;
-    }
-}
-
 /* copyright */
 .copy{
     color: white;
