@@ -1,5 +1,5 @@
 const name1=document.getElementById('name');
-const nametxt='BHARGAV';
+const nametxt='BHARGAV BHAT';
 let index=0;
 let remove=false;      
 function nametype(){
